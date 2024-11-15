@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №2</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение CSS файла -->
+</head>
+<body>
+    <h1>Лабораторная работа №2. Линейный вычислительный процесс. Вариант 19.</h1>
+    <div>
+    <h1>Задание 1. Вычисление периметра и площади прямоугольника</h1>
+    <label for="x1">Координаты первой вершины (x1, y1):</label><br>
+    <input type="number" id="x1" placeholder="x1">
+    <input type="number" id="y1" placeholder="y1"><br>
+
+    <label for="x2">Координаты второй вершины (x2, y2):</label><br>
+    <input type="number" id="x2" placeholder="x2">
+    <input type="number" id="y2" placeholder="y2"><br>
+
+    <button id="calculateButton">Вычислить</button>
+
+    <h2>Результаты:</h2>
+    <p id="result"></p>
+
+    <script src="script.js"></script> <!-- Подключение JS файла -->
+    </div>
+
+    <div>   
+        <h1>Задание 2. Вычисление полных минут</h1>
+        <label for="seconds">Введите количество секунд:</label>
+        <input type="number" id="seconds" placeholder="Введите N" />
+        <button id="calculateButton2">Вычислить минуты</button>
+        <h2 id="result2"></h2>
+    
+        <script src="script2.js"></script> <!-- Подключаем JavaScript файл -->  
+    </div>
+</body>
+</html>

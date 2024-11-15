@@ -1,0 +1,65 @@
+/* Основные стили для body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Светлый фон */
+    color: #333; /* Цвет текста */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Стили для заголовков */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2c3e50; /* Темно-синий цвет */
+}
+
+/* Стили для меток */
+label {
+    font-weight: bold;
+}
+
+/* Стили для input полей */
+input[type="number"] {
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(50% - 12px); /* Уменьшаем ширину для учета отступов */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для плейсхолдеров */
+input::placeholder {
+    color: #aab8c2; /* Цвет плейсхолдера */
+    font-style: italic;
+}
+
+/* Стили для кнопок */
+button {
+    background-color: #3498db; /* Синий цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Плавный переход цвета */
+}
+
+/* Эффект при наведении на кнопку */
+button:hover {
+    background-color: #2980b9; /* Темно-синий цвет при наведении */
+}
+
+/* Стили для результатов */
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+p {
+    background-color: #ecf0f1; /* Цвет фона для результата */
+    padding: 10px;
+    border-radius: 5px;
+}
